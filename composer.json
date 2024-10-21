@@ -16,6 +16,12 @@
             "homepage": "https://github.com/arnaud-ritti"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sjoerdmaesen/easy-common-bundle.git"
+        }
+    ],
     "require": {
         "php": "^8.1 || ^8.2 || ^8.3",
         "ext-json": "*",
@@ -30,7 +36,7 @@
         "symfony/property-access": "^7.1",
         "symfony/filesystem": "^7.1",
         "easycorp/easyadmin-bundle": "^v4.6",
-        "agence-adeliom/easy-common-bundle": "^2.1",
+        "agence-adeliom/easy-common-bundle": "2.x-dev@dev",
         "league/flysystem-bundle": "^3.3.5",
         "liip/imagine-bundle": "^2.8",
         "maennchen/zipstream-php": "^2.1.0",
